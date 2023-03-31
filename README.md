@@ -1,36 +1,21 @@
 # W7-Kaggle_competition
 
-![portada](https://github.com/Ironhack-Data-Madrid-Enero-2021/W7-Kaggle_competition/blob/main/images/PORTADA.jpg)
+![](images/PORTADA.jpg)
 
-## Description
+## Objetivo
 
-- Find the best machine learning model and params for a given dataset. 
+- Este proyecto consiste en participar en una competicion de kaggle para predecir, a través de modelos de machine learning el precio de diamantes segun el set de datos dados. 
 
-## Instructions
+## Contenido
+- ReadMe.md
+- images :carpeta con imagenes usadas en el proyecto
+- data: carpeta con los set de datos y archivos pickle necesitados y generados durante el proyecto.
+- LR_y_conoutliers.ipynb :archivo con el EDA, estandarizacion, encoding y modelos aplicados al set de datos limpiado de cierta manera
+- sinoutliers.ipynb :mas modelos con limpieza previa distinta
+- masmodelos.ipynb :mas modelos, en este archivo se encuentran los modelos con mejores metricas y predicciones. Estas son las que se entregraron a la competición de Kaggle.
 
-Find the Kaggle competition with your cohort name, i.e. **diamonds-datamad1022-part**, link [here](https://www.kaggle.com/competitions/diamonds-datamad1022/overview)
-### train.csv
-* 1. **Processing/cleaning** the dataset: this should be later modularized in functions.
-* 2. **Train** a model (fit & predict) with the data in `train.csv`. This file does contain a **y**.
-        - Do *train, test, split* on `train.csv` if necessary.
-        - Choose the best model regarding the metrics. In this case, the lowest MSE (error).
+![](images/Captura%20de%20pantalla%202023-03-31%20205115.png)
 
-        2.1. **Export** the model: we don't want to invest time/RAM resources on training the model again in the future.
+## Presentación
 
-### test.csv
-* 3. Apply the same **cleaning** to `test.csv`. This files does NOT contain a **y**.
-* 4. We'll apply the already **trained model** from step 2 to the `text.csv` file. With this we'lñl generate a new column with the predicted values.  
-
-### my_submission.csv
-* 5. Generate a `submission.csv` file with only two columns: the **ID** of the diamond & the predicted **price** (y).
-
-
-## Deliverables
-
-- **Jupyter notebooks** where you show the process you followed to get to your submissions.
-
-- A **slide** (.ppt, ipynb, etc) with a summary of the metrics you obtained and the rationale behind it. 
-    - Why do those params work better than others?
-
-## Tips
-- Take advantage of the daily submissions. Try at least one today!
+[Presentacion de canvas](https://www.canva.com/design/DAFeyoSaJHc/-WhmfuarytfPf_ZTywA9Sg/view?utm_content=DAFeyoSaJHc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
